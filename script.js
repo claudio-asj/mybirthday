@@ -5,7 +5,7 @@ const secondsEl = document.getElementById('seconds');
 
 
 
-const niverDay = "21 Oct 2021";
+const niverDay = "21 Oct 2022";
 
 function countdown(){
     const niverDayDate = new Date(niverDay);
