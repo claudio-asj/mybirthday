@@ -8,7 +8,7 @@
 body {
     display: flex;
     justify-content: center;
-    flex: 1;
+    align-items: center;
     height: 100vh;
     width: 100%;
 
@@ -18,9 +18,12 @@ body {
 
 .general {
     display: flex;
-    flex: 1;
     flex-direction: column;
     align-items: center;
+    background-color: #dee6f118;
+    height: 70vh;
+    border-radius: 45px;
+    box-shadow: 5px 5px 15px rgba(182, 240, 248, 0.171);
 }
 
 
@@ -28,6 +31,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 4vh;
 }
 
 
@@ -38,6 +42,8 @@ header {
     margin-top: 3rem;
     overflow:auto;
     width:100%;
+    margin: 3vh;
+    
 }
 
 .card {
@@ -49,24 +55,27 @@ header {
 span {
     font-weight: bold;
     font-size: 2.5rem;
+    color: #05184e;
 }
 p {
-    margin-top: 2rem;
+    margin-top: 1vh;
+    margin: 0;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     margin: 0 3rem;
 }
 h2 {
-    font-size: 1rem;
+    font-size: 25px;
     font-weight: lighter;
     margin: 0;
 }
 h3 {
     font-weight: lighter;
     font-size: 0.7rem;
+    margin: 0;
 }
 
 .social {
